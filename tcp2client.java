@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 import java.util.*;
-
+ 
 public class tcp2client {
     public static void main(String[] args) throws IOException{
         Socket s = new Socket("localhost",6060);

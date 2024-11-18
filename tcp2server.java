@@ -11,12 +11,7 @@ public class tcp2server {
         Scanner sc = new Scanner(System.in);
         String str,str1;
         while((str = br.readLine()) != null){
-            if (!(str.equalsIgnoreCase("exit"))) {
-				System.out.println(str);
-			}
-			else{
-				break;
-			}
+			System.out.println(str);
             str1 = sc.nextLine();
             dos.writeBytes(str1+'\n');
         }
